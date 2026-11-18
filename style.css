@@ -1,0 +1,63 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+h1{
+    text-align: center;
+    color:rgb(63, 73, 90);
+    padding-top: 30px;
+}
+
+body > header{
+    background-color: rgb(191, 167, 219);
+}
+
+header > p {
+color :black;
+text-align: center;
+padding-bottom: 30px;
+}
+nav{
+    background-color:rgb(166, 192, 118);
+}
+a{
+text-decoration: none;
+}
+li{
+    list-style: none;
+}
+a{
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+}
+nav li{
+    list-style: none;
+}
+nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+main{
+    display: flex;
+    gap: 50px;
+    margin : 30px;
+}
+#content {
+    flex : 3;
+    box-shadow: 5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+    padding: 20px ;
+}
+aside{
+    flex:1;
+    box-shadow:  5px 15px 15px 9px rgba(0, 0, 0, 0.20);
+    border-radius: 12px;
+}
+aside header h2 {
+    color: rgb(87, 26, 83);
+    text-align: center;
+}
